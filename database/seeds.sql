@@ -1,6 +1,6 @@
 INSERT INTO users (username, email, password_hash) VALUES
-('jules', 'jules@example.com', '$2b$10$v84142HJNfvZ5bIt28tusudw3i.9UI.B7kdmn1ruGqn86a/Iw2xQO'),
-('jane_doe', 'jane@example.com', '$2b$10$v84142HJNfvZ5bIt28tusuPou1S8p3vhHbcGFYWPD9DD4pr1GINS6');
+('jules', 'jules@example.com', 'password123'),
+('jane_doe', 'jane@example.com', 'securepassword');
 
 INSERT INTO events (name, date, location, total_tickets) VALUES
 ('Tech Conference 2024', '2024-12-15 10:00:00', 'Convention Center', 500),
